@@ -1,0 +1,23 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="FluentValidator" Version="2.0.4" />
+    <PackageReference Include="Microsoft.AspNetCore.Http" Version="2.1.1" />
+    <PackageReference Include="Microsoft.AspNetCore.Http.Features" Version="2.2.0" />
+    <PackageReference Include="Microsoft.Extensions.Configuration" Version="2.1.1" />
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="2.1.1" />
+    <PackageReference Include="Newtonsoft.Json" Version="12.0.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\HelloWorld.Core.ApplicationService\HelloWorld.Core.ApplicationService.csproj" />
+    <ProjectReference Include="..\HelloWorld.Core.Domain\HelloWorld.Core.Domain.csproj" />
+    <ProjectReference Include="..\HelloWorld.Core.Infrastructure.Data\HelloWorld.Core.Infrastructure.Data.csproj" />
+    <ProjectReference Include="..\HelloWorld.Core.Service\HelloWorld.Core.Service.csproj" />
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,11 @@
+C:\Dealercell\HelloWorld\src\HelloWorld.Core.Domain\obj\Debug\netcoreapp2.1\HelloWorld.Core.Domain.Resources.Messages.resources
+C:\Dealercell\HelloWorld\src\HelloWorld.Core.Domain\obj\Debug\netcoreapp2.1\HelloWorld.Core.Domain.csproj.GenerateResource.cache
+C:\Dealercell\HelloWorld\src\HelloWorld.Core.Domain\obj\Debug\netcoreapp2.1\HelloWorld.Core.Domain.csproj.CoreCompileInputs.cache
+C:\Dealercell\HelloWorld\src\HelloWorld.Core.Domain\obj\Debug\netcoreapp2.1\HelloWorld.Core.Domain.AssemblyInfoInputs.cache
+C:\Dealercell\HelloWorld\src\HelloWorld.Core.Domain\obj\Debug\netcoreapp2.1\HelloWorld.Core.Domain.AssemblyInfo.cs
+C:\Dealercell\HelloWorld\src\HelloWorld.Core.Domain\bin\Debug\netcoreapp2.1\HelloWorld.Core.Domain.deps.json
+C:\Dealercell\HelloWorld\src\HelloWorld.Core.Domain\bin\Debug\netcoreapp2.1\HelloWorld.Core.Domain.dll
+C:\Dealercell\HelloWorld\src\HelloWorld.Core.Domain\bin\Debug\netcoreapp2.1\HelloWorld.Core.Domain.pdb
+C:\Dealercell\HelloWorld\src\HelloWorld.Core.Domain\obj\Debug\netcoreapp2.1\HelloWorld.Core.Domain.dll
+C:\Dealercell\HelloWorld\src\HelloWorld.Core.Domain\obj\Debug\netcoreapp2.1\HelloWorld.Core.Domain.pdb
+C:\Dealercell\HelloWorld\src\HelloWorld.Core.Domain\obj\Debug\netcoreapp2.1\HelloWorld.Core.Domain.csprojAssemblyReference.cache

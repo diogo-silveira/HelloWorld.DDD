@@ -1,0 +1,16 @@
+C:\Dealercell\HelloWorld\src\HelloWorld.Core.Infrastructure.Data\obj\Debug\netcoreapp2.1\HelloWorld.Core.Infrastructure.Data.csprojAssemblyReference.cache
+C:\Dealercell\HelloWorld\src\HelloWorld.Core.Infrastructure.Data\obj\Debug\netcoreapp2.1\HelloWorld.Core.Infrastructure.Data.Properties.Resources.resources
+C:\Dealercell\HelloWorld\src\HelloWorld.Core.Infrastructure.Data\obj\Debug\netcoreapp2.1\HelloWorld.Core.Infrastructure.Data.csproj.GenerateResource.cache
+C:\Dealercell\HelloWorld\src\HelloWorld.Core.Infrastructure.Data\obj\Debug\netcoreapp2.1\HelloWorld.Core.Infrastructure.Data.csproj.CoreCompileInputs.cache
+C:\Dealercell\HelloWorld\src\HelloWorld.Core.Infrastructure.Data\obj\Debug\netcoreapp2.1\HelloWorld.Core.Infrastructure.Data.AssemblyInfoInputs.cache
+C:\Dealercell\HelloWorld\src\HelloWorld.Core.Infrastructure.Data\obj\Debug\netcoreapp2.1\HelloWorld.Core.Infrastructure.Data.AssemblyInfo.cs
+C:\Dealercell\HelloWorld\src\HelloWorld.Core.Infrastructure.Data\bin\Debug\netcoreapp2.1\HelloWorld.Core.Infrastructure.Data.deps.json
+C:\Dealercell\HelloWorld\src\HelloWorld.Core.Infrastructure.Data\bin\Debug\netcoreapp2.1\HelloWorld.Core.Infrastructure.Data.dll
+C:\Dealercell\HelloWorld\src\HelloWorld.Core.Infrastructure.Data\bin\Debug\netcoreapp2.1\HelloWorld.Core.Domain.dll
+C:\Dealercell\HelloWorld\src\HelloWorld.Core.Infrastructure.Data\bin\Debug\netcoreapp2.1\Microsoft.EntityFrameworkCore.dll
+C:\Dealercell\HelloWorld\src\HelloWorld.Core.Infrastructure.Data\bin\Debug\netcoreapp2.1\HelloWorld.Core.Domain.pdb
+C:\Dealercell\HelloWorld\src\HelloWorld.Core.Infrastructure.Data\bin\Debug\netcoreapp2.1\Microsoft.EntityFrameworkCore.xml
+C:\Dealercell\HelloWorld\src\HelloWorld.Core.Infrastructure.Data\obj\Debug\netcoreapp2.1\HelloWorld.Core.Infrastructure.Data.csproj.CopyComplete
+C:\Dealercell\HelloWorld\src\HelloWorld.Core.Infrastructure.Data\bin\Debug\netcoreapp2.1\HelloWorld.Core.Infrastructure.Data.pdb
+C:\Dealercell\HelloWorld\src\HelloWorld.Core.Infrastructure.Data\obj\Debug\netcoreapp2.1\HelloWorld.Core.Infrastructure.Data.dll
+C:\Dealercell\HelloWorld\src\HelloWorld.Core.Infrastructure.Data\obj\Debug\netcoreapp2.1\HelloWorld.Core.Infrastructure.Data.pdb
