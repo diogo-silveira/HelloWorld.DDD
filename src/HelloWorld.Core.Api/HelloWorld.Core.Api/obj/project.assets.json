@@ -4428,7 +4428,6 @@
           "HelloWorld.Core.Infrastructure.Data": "1.0.0",
           "HelloWorld.Core.Service": "1.0.0",
           "Microsoft.AspNetCore.Http": "2.1.1",
-          "Microsoft.AspNetCore.Http.Features": "2.2.0",
           "Microsoft.Extensions.Configuration": "2.1.1",
           "Microsoft.Extensions.DependencyInjection": "2.1.1",
           "Newtonsoft.Json": "12.0.2"
@@ -4447,7 +4446,8 @@
           "FluentValidator": "2.0.4",
           "HelloWorld.Core.Domain": "1.0.0",
           "Microsoft.AspNetCore.Http": "2.1.1",
-          "Microsoft.AspNetCore.Http.Features": "2.2.0",
+          "Microsoft.EntityFrameworkCore": "2.1.1",
+          "Microsoft.EntityFrameworkCore.SqlServer": "2.1.1",
           "Microsoft.Extensions.Configuration": "2.1.1",
           "Microsoft.Extensions.DependencyInjection": "2.1.1",
           "Newtonsoft.Json": "12.0.2"
@@ -11752,7 +11752,9 @@
       "HelloWorld.Core.Domain >= 1.0.0",
       "HelloWorld.Core.Infrastructure.CrossCutting.IoC >= 1.0.0",
       "Microsoft.AspNetCore.App >= 2.1.1",
+      "Microsoft.AspNetCore.Http.Features >= 2.2.0",
       "Microsoft.Extensions.DependencyInjection >= 2.1.1",
+      "Microsoft.Extensions.Primitives >= 2.2.0",
       "Microsoft.NETCore.App >= 2.1.0",
       "Newtonsoft.Json >= 12.0.2",
       "Swashbuckle.AspNetCore.Swagger >= 4.0.1",
@@ -11767,11 +11769,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Dealercell\\HelloWorld\\src\\HelloWorld.Core.Api\\HelloWorld.Core.Api\\HelloWorld.Core.Api.csproj",
+      "projectUniqueName": "C:\\Dealercell\\HelloWorld\\HelloWorld.DDD\\src\\HelloWorld.Core.Api\\HelloWorld.Core.Api\\HelloWorld.Core.Api.csproj",
       "projectName": "HelloWorld.Core.Api",
-      "projectPath": "C:\\Dealercell\\HelloWorld\\src\\HelloWorld.Core.Api\\HelloWorld.Core.Api\\HelloWorld.Core.Api.csproj",
+      "projectPath": "C:\\Dealercell\\HelloWorld\\HelloWorld.DDD\\src\\HelloWorld.Core.Api\\HelloWorld.Core.Api\\HelloWorld.Core.Api.csproj",
       "packagesPath": "C:\\Users\\diogo\\.nuget\\packages\\",
-      "outputPath": "C:\\Dealercell\\HelloWorld\\src\\HelloWorld.Core.Api\\HelloWorld.Core.Api\\obj\\",
+      "outputPath": "C:\\Dealercell\\HelloWorld\\HelloWorld.DDD\\src\\HelloWorld.Core.Api\\HelloWorld.Core.Api\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -11790,11 +11792,11 @@
       "frameworks": {
         "netcoreapp2.1": {
           "projectReferences": {
-            "C:\\Dealercell\\HelloWorld\\src\\HelloWorld.Core.Domain\\HelloWorld.Core.Domain.csproj": {
-              "projectPath": "C:\\Dealercell\\HelloWorld\\src\\HelloWorld.Core.Domain\\HelloWorld.Core.Domain.csproj"
+            "C:\\Dealercell\\HelloWorld\\HelloWorld.DDD\\src\\HelloWorld.Core.Domain\\HelloWorld.Core.Domain.csproj": {
+              "projectPath": "C:\\Dealercell\\HelloWorld\\HelloWorld.DDD\\src\\HelloWorld.Core.Domain\\HelloWorld.Core.Domain.csproj"
             },
-            "C:\\Dealercell\\HelloWorld\\src\\HelloWorld.Core.Infrastructure.CrossCutting.IoC\\HelloWorld.Core.Infrastructure.CrossCutting.IoC.csproj": {
-              "projectPath": "C:\\Dealercell\\HelloWorld\\src\\HelloWorld.Core.Infrastructure.CrossCutting.IoC\\HelloWorld.Core.Infrastructure.CrossCutting.IoC.csproj"
+            "C:\\Dealercell\\HelloWorld\\HelloWorld.DDD\\src\\HelloWorld.Core.Infrastructure.CrossCutting.IoC\\HelloWorld.Core.Infrastructure.CrossCutting.IoC.csproj": {
+              "projectPath": "C:\\Dealercell\\HelloWorld\\HelloWorld.DDD\\src\\HelloWorld.Core.Infrastructure.CrossCutting.IoC\\HelloWorld.Core.Infrastructure.CrossCutting.IoC.csproj"
             }
           }
         }
@@ -11818,9 +11820,17 @@
             "version": "[2.1.1, )",
             "autoReferenced": true
           },
+          "Microsoft.AspNetCore.Http.Features": {
+            "target": "Package",
+            "version": "[2.2.0, )"
+          },
           "Microsoft.Extensions.DependencyInjection": {
             "target": "Package",
             "version": "[2.1.1, )"
+          },
+          "Microsoft.Extensions.Primitives": {
+            "target": "Package",
+            "version": "[2.2.0, )"
           },
           "Microsoft.NETCore.App": {
             "target": "Package",
@@ -11854,10 +11864,21 @@
   },
   "logs": [
     {
-      "code": "NU1107",
-      "level": "Error",
-      "message": "Version conflict detected for Microsoft.AspNetCore.Http.Features. Install/reference Microsoft.AspNetCore.Http.Features 2.2.0 directly to project HelloWorld.Core.Api to resolve this issue. \r\n HelloWorld.Core.Api -> HelloWorld.Core.Infrastructure.CrossCutting.IoC -> Microsoft.AspNetCore.Http.Features (>= 2.2.0) \r\n HelloWorld.Core.Api -> Microsoft.AspNetCore.App 2.1.1 -> Microsoft.AspNetCore.Http.Features (>= 2.1.1 && < 2.2.0).",
+      "code": "NU1608",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Detected package version outside of dependency constraint: Microsoft.AspNetCore.App 2.1.1 requires Microsoft.AspNetCore.Http.Features (>= 2.1.1 && < 2.2.0) but version Microsoft.AspNetCore.Http.Features 2.2.0 was resolved.",
       "libraryId": "Microsoft.AspNetCore.Http.Features",
+      "targetGraphs": [
+        ".NETCoreApp,Version=v2.1"
+      ]
+    },
+    {
+      "code": "NU1608",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Detected package version outside of dependency constraint: Microsoft.AspNetCore.App 2.1.1 requires Microsoft.Extensions.Primitives (>= 2.1.1 && < 2.2.0) but version Microsoft.Extensions.Primitives 2.2.0 was resolved.",
+      "libraryId": "Microsoft.Extensions.Primitives",
       "targetGraphs": [
         ".NETCoreApp,Version=v2.1"
       ]

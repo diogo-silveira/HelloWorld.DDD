@@ -770,11 +770,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Dealercell\\HelloWorld\\src\\HelloWorld.Core.ApplicationService\\HelloWorld.Core.ApplicationService.csproj",
+      "projectUniqueName": "C:\\Dealercell\\HelloWorld\\HelloWorld.DDD\\src\\HelloWorld.Core.ApplicationService\\HelloWorld.Core.ApplicationService.csproj",
       "projectName": "HelloWorld.Core.ApplicationService",
-      "projectPath": "C:\\Dealercell\\HelloWorld\\src\\HelloWorld.Core.ApplicationService\\HelloWorld.Core.ApplicationService.csproj",
+      "projectPath": "C:\\Dealercell\\HelloWorld\\HelloWorld.DDD\\src\\HelloWorld.Core.ApplicationService\\HelloWorld.Core.ApplicationService.csproj",
       "packagesPath": "C:\\Users\\diogo\\.nuget\\packages\\",
-      "outputPath": "C:\\Dealercell\\HelloWorld\\src\\HelloWorld.Core.ApplicationService\\obj\\",
+      "outputPath": "C:\\Dealercell\\HelloWorld\\HelloWorld.DDD\\src\\HelloWorld.Core.ApplicationService\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -793,8 +793,8 @@
       "frameworks": {
         "netcoreapp2.1": {
           "projectReferences": {
-            "C:\\Dealercell\\HelloWorld\\src\\HelloWorld.Core.Domain\\HelloWorld.Core.Domain.csproj": {
-              "projectPath": "C:\\Dealercell\\HelloWorld\\src\\HelloWorld.Core.Domain\\HelloWorld.Core.Domain.csproj"
+            "C:\\Dealercell\\HelloWorld\\HelloWorld.DDD\\src\\HelloWorld.Core.Domain\\HelloWorld.Core.Domain.csproj": {
+              "projectPath": "C:\\Dealercell\\HelloWorld\\HelloWorld.DDD\\src\\HelloWorld.Core.Domain\\HelloWorld.Core.Domain.csproj"
             }
           }
         }
