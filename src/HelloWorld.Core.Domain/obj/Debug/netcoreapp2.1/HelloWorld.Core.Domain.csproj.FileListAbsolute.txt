@@ -19,3 +19,13 @@ C:\Dealercell\HelloWorld\HelloWorld.DDD\src\HelloWorld.Core.Domain\obj\Debug\net
 C:\Dealercell\HelloWorld\HelloWorld.DDD\src\HelloWorld.Core.Domain\obj\Debug\netcoreapp2.1\HelloWorld.Core.Domain.AssemblyInfo.cs
 C:\Dealercell\HelloWorld\HelloWorld.DDD\src\HelloWorld.Core.Domain\obj\Debug\netcoreapp2.1\HelloWorld.Core.Domain.dll
 C:\Dealercell\HelloWorld\HelloWorld.DDD\src\HelloWorld.Core.Domain\obj\Debug\netcoreapp2.1\HelloWorld.Core.Domain.pdb
+C:\Git\HelloWorld.DDD\src\HelloWorld.Core.Domain\bin\Debug\netcoreapp2.1\HelloWorld.Core.Domain.deps.json
+C:\Git\HelloWorld.DDD\src\HelloWorld.Core.Domain\bin\Debug\netcoreapp2.1\HelloWorld.Core.Domain.dll
+C:\Git\HelloWorld.DDD\src\HelloWorld.Core.Domain\bin\Debug\netcoreapp2.1\HelloWorld.Core.Domain.pdb
+C:\Git\HelloWorld.DDD\src\HelloWorld.Core.Domain\obj\Debug\netcoreapp2.1\HelloWorld.Core.Domain.Resources.Messages.resources
+C:\Git\HelloWorld.DDD\src\HelloWorld.Core.Domain\obj\Debug\netcoreapp2.1\HelloWorld.Core.Domain.csproj.GenerateResource.cache
+C:\Git\HelloWorld.DDD\src\HelloWorld.Core.Domain\obj\Debug\netcoreapp2.1\HelloWorld.Core.Domain.csproj.CoreCompileInputs.cache
+C:\Git\HelloWorld.DDD\src\HelloWorld.Core.Domain\obj\Debug\netcoreapp2.1\HelloWorld.Core.Domain.AssemblyInfoInputs.cache
+C:\Git\HelloWorld.DDD\src\HelloWorld.Core.Domain\obj\Debug\netcoreapp2.1\HelloWorld.Core.Domain.AssemblyInfo.cs
+C:\Git\HelloWorld.DDD\src\HelloWorld.Core.Domain\obj\Debug\netcoreapp2.1\HelloWorld.Core.Domain.dll
+C:\Git\HelloWorld.DDD\src\HelloWorld.Core.Domain\obj\Debug\netcoreapp2.1\HelloWorld.Core.Domain.pdb

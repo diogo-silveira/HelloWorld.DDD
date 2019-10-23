@@ -28,3 +28,17 @@ C:\Dealercell\HelloWorld\HelloWorld.DDD\src\HelloWorld.Core.Infrastructure.Data\
 C:\Dealercell\HelloWorld\HelloWorld.DDD\src\HelloWorld.Core.Infrastructure.Data\obj\Debug\netcoreapp2.1\HelloWorld.Core.Infrastructure.Data.csproj.CopyComplete
 C:\Dealercell\HelloWorld\HelloWorld.DDD\src\HelloWorld.Core.Infrastructure.Data\obj\Debug\netcoreapp2.1\HelloWorld.Core.Infrastructure.Data.dll
 C:\Dealercell\HelloWorld\HelloWorld.DDD\src\HelloWorld.Core.Infrastructure.Data\obj\Debug\netcoreapp2.1\HelloWorld.Core.Infrastructure.Data.pdb
+C:\Git\HelloWorld.DDD\src\HelloWorld.Core.Infrastructure.Data\bin\Debug\netcoreapp2.1\HelloWorld.Core.Infrastructure.Data.deps.json
+C:\Git\HelloWorld.DDD\src\HelloWorld.Core.Infrastructure.Data\bin\Debug\netcoreapp2.1\HelloWorld.Core.Infrastructure.Data.dll
+C:\Git\HelloWorld.DDD\src\HelloWorld.Core.Infrastructure.Data\bin\Debug\netcoreapp2.1\HelloWorld.Core.Infrastructure.Data.pdb
+C:\Git\HelloWorld.DDD\src\HelloWorld.Core.Infrastructure.Data\bin\Debug\netcoreapp2.1\HelloWorld.Core.Domain.dll
+C:\Git\HelloWorld.DDD\src\HelloWorld.Core.Infrastructure.Data\bin\Debug\netcoreapp2.1\HelloWorld.Core.Domain.pdb
+C:\Git\HelloWorld.DDD\src\HelloWorld.Core.Infrastructure.Data\obj\Debug\netcoreapp2.1\HelloWorld.Core.Infrastructure.Data.csprojAssemblyReference.cache
+C:\Git\HelloWorld.DDD\src\HelloWorld.Core.Infrastructure.Data\obj\Debug\netcoreapp2.1\HelloWorld.Core.Infrastructure.Data.Properties.Resources.resources
+C:\Git\HelloWorld.DDD\src\HelloWorld.Core.Infrastructure.Data\obj\Debug\netcoreapp2.1\HelloWorld.Core.Infrastructure.Data.csproj.GenerateResource.cache
+C:\Git\HelloWorld.DDD\src\HelloWorld.Core.Infrastructure.Data\obj\Debug\netcoreapp2.1\HelloWorld.Core.Infrastructure.Data.csproj.CoreCompileInputs.cache
+C:\Git\HelloWorld.DDD\src\HelloWorld.Core.Infrastructure.Data\obj\Debug\netcoreapp2.1\HelloWorld.Core.Infrastructure.Data.AssemblyInfoInputs.cache
+C:\Git\HelloWorld.DDD\src\HelloWorld.Core.Infrastructure.Data\obj\Debug\netcoreapp2.1\HelloWorld.Core.Infrastructure.Data.AssemblyInfo.cs
+C:\Git\HelloWorld.DDD\src\HelloWorld.Core.Infrastructure.Data\obj\Debug\netcoreapp2.1\HelloWorld.Core.Infrastructure.Data.csproj.CopyComplete
+C:\Git\HelloWorld.DDD\src\HelloWorld.Core.Infrastructure.Data\obj\Debug\netcoreapp2.1\HelloWorld.Core.Infrastructure.Data.dll
+C:\Git\HelloWorld.DDD\src\HelloWorld.Core.Infrastructure.Data\obj\Debug\netcoreapp2.1\HelloWorld.Core.Infrastructure.Data.pdb

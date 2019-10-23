@@ -22,3 +22,15 @@ C:\Dealercell\HelloWorld\HelloWorld.DDD\src\HelloWorld.Core.Service\obj\Debug\ne
 C:\Dealercell\HelloWorld\HelloWorld.DDD\src\HelloWorld.Core.Service\obj\Debug\netcoreapp2.1\HelloWorld.Core.Service.csproj.CopyComplete
 C:\Dealercell\HelloWorld\HelloWorld.DDD\src\HelloWorld.Core.Service\obj\Debug\netcoreapp2.1\HelloWorld.Core.Service.dll
 C:\Dealercell\HelloWorld\HelloWorld.DDD\src\HelloWorld.Core.Service\obj\Debug\netcoreapp2.1\HelloWorld.Core.Service.pdb
+C:\Git\HelloWorld.DDD\src\HelloWorld.Core.Service\bin\Debug\netcoreapp2.1\HelloWorld.Core.Service.deps.json
+C:\Git\HelloWorld.DDD\src\HelloWorld.Core.Service\bin\Debug\netcoreapp2.1\HelloWorld.Core.Service.dll
+C:\Git\HelloWorld.DDD\src\HelloWorld.Core.Service\bin\Debug\netcoreapp2.1\HelloWorld.Core.Service.pdb
+C:\Git\HelloWorld.DDD\src\HelloWorld.Core.Service\bin\Debug\netcoreapp2.1\HelloWorld.Core.Domain.dll
+C:\Git\HelloWorld.DDD\src\HelloWorld.Core.Service\bin\Debug\netcoreapp2.1\HelloWorld.Core.Domain.pdb
+C:\Git\HelloWorld.DDD\src\HelloWorld.Core.Service\obj\Debug\netcoreapp2.1\HelloWorld.Core.Service.csprojAssemblyReference.cache
+C:\Git\HelloWorld.DDD\src\HelloWorld.Core.Service\obj\Debug\netcoreapp2.1\HelloWorld.Core.Service.csproj.CoreCompileInputs.cache
+C:\Git\HelloWorld.DDD\src\HelloWorld.Core.Service\obj\Debug\netcoreapp2.1\HelloWorld.Core.Service.AssemblyInfoInputs.cache
+C:\Git\HelloWorld.DDD\src\HelloWorld.Core.Service\obj\Debug\netcoreapp2.1\HelloWorld.Core.Service.AssemblyInfo.cs
+C:\Git\HelloWorld.DDD\src\HelloWorld.Core.Service\obj\Debug\netcoreapp2.1\HelloWorld.Core.Service.csproj.CopyComplete
+C:\Git\HelloWorld.DDD\src\HelloWorld.Core.Service\obj\Debug\netcoreapp2.1\HelloWorld.Core.Service.dll
+C:\Git\HelloWorld.DDD\src\HelloWorld.Core.Service\obj\Debug\netcoreapp2.1\HelloWorld.Core.Service.pdb

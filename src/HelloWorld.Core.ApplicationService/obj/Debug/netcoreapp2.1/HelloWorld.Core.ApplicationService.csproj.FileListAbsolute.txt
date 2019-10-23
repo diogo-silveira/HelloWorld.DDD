@@ -22,3 +22,15 @@ C:\Dealercell\HelloWorld\HelloWorld.DDD\src\HelloWorld.Core.ApplicationService\o
 C:\Dealercell\HelloWorld\HelloWorld.DDD\src\HelloWorld.Core.ApplicationService\obj\Debug\netcoreapp2.1\HelloWorld.Core.ApplicationService.csproj.CopyComplete
 C:\Dealercell\HelloWorld\HelloWorld.DDD\src\HelloWorld.Core.ApplicationService\obj\Debug\netcoreapp2.1\HelloWorld.Core.ApplicationService.dll
 C:\Dealercell\HelloWorld\HelloWorld.DDD\src\HelloWorld.Core.ApplicationService\obj\Debug\netcoreapp2.1\HelloWorld.Core.ApplicationService.pdb
+C:\Git\HelloWorld.DDD\src\HelloWorld.Core.ApplicationService\bin\Debug\netcoreapp2.1\HelloWorld.Core.ApplicationService.deps.json
+C:\Git\HelloWorld.DDD\src\HelloWorld.Core.ApplicationService\bin\Debug\netcoreapp2.1\HelloWorld.Core.ApplicationService.dll
+C:\Git\HelloWorld.DDD\src\HelloWorld.Core.ApplicationService\bin\Debug\netcoreapp2.1\HelloWorld.Core.ApplicationService.pdb
+C:\Git\HelloWorld.DDD\src\HelloWorld.Core.ApplicationService\bin\Debug\netcoreapp2.1\HelloWorld.Core.Domain.dll
+C:\Git\HelloWorld.DDD\src\HelloWorld.Core.ApplicationService\bin\Debug\netcoreapp2.1\HelloWorld.Core.Domain.pdb
+C:\Git\HelloWorld.DDD\src\HelloWorld.Core.ApplicationService\obj\Debug\netcoreapp2.1\HelloWorld.Core.ApplicationService.csprojAssemblyReference.cache
+C:\Git\HelloWorld.DDD\src\HelloWorld.Core.ApplicationService\obj\Debug\netcoreapp2.1\HelloWorld.Core.ApplicationService.csproj.CoreCompileInputs.cache
+C:\Git\HelloWorld.DDD\src\HelloWorld.Core.ApplicationService\obj\Debug\netcoreapp2.1\HelloWorld.Core.ApplicationService.AssemblyInfoInputs.cache
+C:\Git\HelloWorld.DDD\src\HelloWorld.Core.ApplicationService\obj\Debug\netcoreapp2.1\HelloWorld.Core.ApplicationService.AssemblyInfo.cs
+C:\Git\HelloWorld.DDD\src\HelloWorld.Core.ApplicationService\obj\Debug\netcoreapp2.1\HelloWorld.Core.ApplicationService.csproj.CopyComplete
+C:\Git\HelloWorld.DDD\src\HelloWorld.Core.ApplicationService\obj\Debug\netcoreapp2.1\HelloWorld.Core.ApplicationService.dll
+C:\Git\HelloWorld.DDD\src\HelloWorld.Core.ApplicationService\obj\Debug\netcoreapp2.1\HelloWorld.Core.ApplicationService.pdb

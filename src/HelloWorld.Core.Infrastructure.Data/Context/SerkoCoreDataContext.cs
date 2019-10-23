@@ -1,8 +1,8 @@
 ﻿using Microsoft.EntityFrameworkCore;
-using Microsoft.Extensions.Configuration;
 using HelloWorld.Core.Domain.Entities;
 using HelloWorld.Core.Infrastructure.Data.Mapping;
 using System.IO;
+using Microsoft.Extensions.Configuration;
 
 namespace HelloWorld.Core.Infrastructure.Data.Context
 {
@@ -10,7 +10,6 @@ namespace HelloWorld.Core.Infrastructure.Data.Context
     {
        
         public virtual DbSet<Employee> Employees { get; set; }
-
         public virtual DbSet<Expense> Expense { get; set; }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
@@ -23,13 +22,13 @@ namespace HelloWorld.Core.Infrastructure.Data.Context
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-           /* var config = new ConfigurationBuilder()
-                .SetBasePath(Directory.GetCurrentDirectory())
-                .AddJsonFile("appsettings.json")
-                .Build();
+            var config = new ConfigurationBuilder()
+               .SetBasePath(Directory.GetCurrentDirectory())
+               .AddJsonFile("appsettings.json")
+               .Build();
+           
+            optionsBuilder.UseSqlServer(config.GetConnectionString("DefaultConnection"));
 
-            optionsBuilder.UseNpgsql(config.GetConnectionString("DefaultConnection"));
-            */
         }
        
     }

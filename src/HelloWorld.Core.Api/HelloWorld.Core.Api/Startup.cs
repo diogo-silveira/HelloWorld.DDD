@@ -169,7 +169,7 @@ namespace HelloWorld.Core.Api
             {
                 app.UseDeveloperExceptionPage();
                 app.UseDatabaseErrorPage();
-                //app.UseBrowserLink();
+                app.UseBrowserLink();
 
                 app.UseCors( "AllowPolicy" );
             }
@@ -177,7 +177,7 @@ namespace HelloWorld.Core.Api
             {
                 app.UseDeveloperExceptionPage();
                 app.UseDatabaseErrorPage();
-                //app.UseBrowserLink();
+                app.UseBrowserLink();
 
                 app.UseCors( "AllowPolicy" );
             }

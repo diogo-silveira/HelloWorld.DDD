@@ -19,28 +19,23 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4 - Domain", "4 - Domain", 
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "5 - Infrastructure", "5 - Infrastructure", "{FAD4FC0A-CD59-46C9-9AA9-B35D957834B4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HelloWorld.Core.ApplicationService", "src\HelloWorld.Core.ApplicationService\HelloWorld.Core.ApplicationService.csproj", "{9BE859BB-88E4-486A-9650-915B97EAA596}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HelloWorld.Core.ApplicationService", "src\HelloWorld.Core.ApplicationService\HelloWorld.Core.ApplicationService.csproj", "{9BE859BB-88E4-486A-9650-915B97EAA596}"
 	ProjectSection(ProjectDependencies) = postProject
 		{7FD2A389-663C-4FF1-8C7A-95DA83E19EF5} = {7FD2A389-663C-4FF1-8C7A-95DA83E19EF5}
 	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HelloWorld.Core.Service", "src\HelloWorld.Core.Service\HelloWorld.Core.Service.csproj", "{A8203267-129D-4351-9A09-117293C1FC0E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HelloWorld.Core.Service", "src\HelloWorld.Core.Service\HelloWorld.Core.Service.csproj", "{A8203267-129D-4351-9A09-117293C1FC0E}"
 	ProjectSection(ProjectDependencies) = postProject
 		{7FD2A389-663C-4FF1-8C7A-95DA83E19EF5} = {7FD2A389-663C-4FF1-8C7A-95DA83E19EF5}
 	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HelloWorld.Core.Domain", "src\HelloWorld.Core.Domain\HelloWorld.Core.Domain.csproj", "{7FD2A389-663C-4FF1-8C7A-95DA83E19EF5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HelloWorld.Core.Domain", "src\HelloWorld.Core.Domain\HelloWorld.Core.Domain.csproj", "{7FD2A389-663C-4FF1-8C7A-95DA83E19EF5}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "5.1 - Data", "5.1 - Data", "{9AFA5C7F-CD88-407D-A0B3-028BC175FC2C}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "5.2 - CrossCutting", "5.2 - CrossCutting", "{A297980F-648F-4840-A339-3441F7C385AE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HelloWorld.Core.Infrastructure.Data", "src\HelloWorld.Core.Infrastructure.Data\HelloWorld.Core.Infrastructure.Data.csproj", "{3A9C076D-CD58-499C-9910-83E5266F8C6E}"
-	ProjectSection(ProjectDependencies) = postProject
-		{7FD2A389-663C-4FF1-8C7A-95DA83E19EF5} = {7FD2A389-663C-4FF1-8C7A-95DA83E19EF5}
-	EndProjectSection
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HelloWorld.Core.Infrastructure.CrossCutting.IoC", "src\HelloWorld.Core.Infrastructure.CrossCutting.IoC\HelloWorld.Core.Infrastructure.CrossCutting.IoC.csproj", "{BE930B16-BE61-4B9D-B318-275540EED6A1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HelloWorld.Core.Infrastructure.CrossCutting.IoC", "src\HelloWorld.Core.Infrastructure.CrossCutting.IoC\HelloWorld.Core.Infrastructure.CrossCutting.IoC.csproj", "{BE930B16-BE61-4B9D-B318-275540EED6A1}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "6 - Tests", "6 - Tests", "{89AECE12-244C-4F43-AF14-3B500100E4D6}"
 EndProject
@@ -53,6 +48,8 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "6.4 - Domain", "6.4 - Domain", "{45C62539-6474-4D64-AF80-B91D34BA20CA}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "6.5 - Data", "6.5 - Data", "{0DF3CD73-2924-44CF-B348-C7632145FD8D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HelloWorld.Core.Infrastructure.Data", "src\HelloWorld.Core.Infrastructure.Data\HelloWorld.Core.Infrastructure.Data.csproj", "{D0D7F255-2D34-4275-BDB7-7F8EF5AB312B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -76,14 +73,14 @@ Global
 		{7FD2A389-663C-4FF1-8C7A-95DA83E19EF5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7FD2A389-663C-4FF1-8C7A-95DA83E19EF5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7FD2A389-663C-4FF1-8C7A-95DA83E19EF5}.Release|Any CPU.Build.0 = Release|Any CPU
-		{3A9C076D-CD58-499C-9910-83E5266F8C6E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{3A9C076D-CD58-499C-9910-83E5266F8C6E}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{3A9C076D-CD58-499C-9910-83E5266F8C6E}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{3A9C076D-CD58-499C-9910-83E5266F8C6E}.Release|Any CPU.Build.0 = Release|Any CPU
 		{BE930B16-BE61-4B9D-B318-275540EED6A1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{BE930B16-BE61-4B9D-B318-275540EED6A1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BE930B16-BE61-4B9D-B318-275540EED6A1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BE930B16-BE61-4B9D-B318-275540EED6A1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D0D7F255-2D34-4275-BDB7-7F8EF5AB312B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D0D7F255-2D34-4275-BDB7-7F8EF5AB312B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D0D7F255-2D34-4275-BDB7-7F8EF5AB312B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D0D7F255-2D34-4275-BDB7-7F8EF5AB312B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -100,7 +97,6 @@ Global
 		{7FD2A389-663C-4FF1-8C7A-95DA83E19EF5} = {61EC5245-C990-4B3A-A1BA-46E94C3FC464}
 		{9AFA5C7F-CD88-407D-A0B3-028BC175FC2C} = {FAD4FC0A-CD59-46C9-9AA9-B35D957834B4}
 		{A297980F-648F-4840-A339-3441F7C385AE} = {FAD4FC0A-CD59-46C9-9AA9-B35D957834B4}
-		{3A9C076D-CD58-499C-9910-83E5266F8C6E} = {9AFA5C7F-CD88-407D-A0B3-028BC175FC2C}
 		{BE930B16-BE61-4B9D-B318-275540EED6A1} = {A297980F-648F-4840-A339-3441F7C385AE}
 		{89AECE12-244C-4F43-AF14-3B500100E4D6} = {F52B36C3-3E8D-4827-B9F9-04F7E7BD3995}
 		{32A59580-0D67-4C8F-B935-5D1E125AC8C4} = {89AECE12-244C-4F43-AF14-3B500100E4D6}
@@ -108,6 +104,7 @@ Global
 		{3A3B60C2-4CC5-43CE-B7B7-32F5F6CBBDF0} = {89AECE12-244C-4F43-AF14-3B500100E4D6}
 		{45C62539-6474-4D64-AF80-B91D34BA20CA} = {89AECE12-244C-4F43-AF14-3B500100E4D6}
 		{0DF3CD73-2924-44CF-B348-C7632145FD8D} = {89AECE12-244C-4F43-AF14-3B500100E4D6}
+		{D0D7F255-2D34-4275-BDB7-7F8EF5AB312B} = {9AFA5C7F-CD88-407D-A0B3-028BC175FC2C}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {1CE7B4F6-0FB4-42D4-944F-949D6010DA5E}

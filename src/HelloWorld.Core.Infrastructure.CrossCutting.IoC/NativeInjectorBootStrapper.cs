@@ -16,7 +16,7 @@ namespace HelloWorld.Core.Infrastructure.CrossCutting.IoC
     {
         public static void RegisterServices(IServiceCollection services)
         {
-            //services.AddSingleton<IHttpContextAccessor, HttpContextAccessor>();
+            services.AddSingleton<IHttpContextAccessor, HttpContextAccessor>();
 
             #region [ APPLICATION SERVICE ]
 
