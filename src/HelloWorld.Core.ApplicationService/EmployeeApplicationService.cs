@@ -35,25 +35,12 @@ namespace HelloWorld.Core.ApplicationService
                 return null;
             }
 
-            var validateBarcode = EmployeeScope.ValidateBarcode(employee);
 
-            if (!validateBarcode.Any())
-            {
-                var employeeAuth = _employeeService.AuthenticationByBarcodeAsync(employee);
-                if (employeeAuth?.Result != null) return await employeeAuth;
-
-                AddNotification("Employee", string.Format(Messages.ERROR_INVALID_AUTHENTICATION, "barcode/password"));
-                return null;
-            }
-
-            if (validateUsername.Any() && validateBarcode.Any())
+            if (validateUsername.Any())
                 AddNotification("Employee", Messages.ERROR_AUTHENTICATION_ISNULL);
 
             else if (validateUsername.Any())
                 AddNotifications(validateUsername);
-
-            else if (validateBarcode.Any())
-                AddNotifications(validateBarcode);
             
             return null;
         }

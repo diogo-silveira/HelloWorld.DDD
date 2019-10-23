@@ -8,10 +8,10 @@ namespace HelloWorld.Core.Infrastructure.Data.Mapping
     {
         public void Configure(EntityTypeBuilder<Employee> entity)
         {
-            /*entity.ToTable("tblEmployees");
+            entity.ToTable("tblEmployees");
 
             entity.HasKey(e => e.EmployeeNumber);
-            
+
             entity.HasIndex(e => e.Barcode).HasName("Barcode").IsUnique();
             entity.HasIndex(e => e.FirstName).HasName("FirstName");
             entity.HasIndex(e => e.LastName).HasName("FirstName1");
@@ -32,7 +32,7 @@ namespace HelloWorld.Core.Infrastructure.Data.Mapping
             entity.Property(e => e.LastName).HasMaxLength(30);
             entity.Property(e => e.Password).HasMaxLength(20);
             entity.Property(e => e.RoleId).HasColumnName("RoleID").HasDefaultValueSql("((1))");
-            entity.Property(e => e.UserName).HasMaxLength(30);*/
+            entity.Property(e => e.UserName).HasMaxLength(30);
 
         }
     }

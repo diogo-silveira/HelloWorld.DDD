@@ -5,10 +5,8 @@ using HelloWorld.Core.Domain.Entities;
 
 namespace HelloWorld.Core.Domain.Interfaces.Service
 {
-    public interface IExpenseService
+    public interface IHelloWorldService
     {
-        Expense Add(Expense request);
-        Expense GetById(int id);
-        IEnumerable<Expense> GetAll();
+        Task<string> HelloWorld();
     }
 }

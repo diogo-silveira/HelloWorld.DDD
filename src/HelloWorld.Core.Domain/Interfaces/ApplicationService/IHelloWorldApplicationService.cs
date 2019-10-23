@@ -4,11 +4,9 @@ using HelloWorld.Core.Domain.Entities;
 
 namespace HelloWorld.Core.Domain.Interfaces.ApplicationService
 {
-    public interface IExpenseApplicationService : IBaseApplicationService
+    public interface IHelloWorldApplicationService : IBaseApplicationService
     {
-        string Add(dynamic request);
-        Expense GetById(int id);
-        IEnumerable<Expense> GetAll();
+        Task<string> HelloWorld();
 
     }
 }

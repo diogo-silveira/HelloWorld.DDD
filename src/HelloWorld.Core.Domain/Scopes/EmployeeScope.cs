@@ -26,10 +26,8 @@ namespace HelloWorld.Core.Domain.Scopes
         {
             Contract = new ValidationContract()
                 .Requires()
-                .IsNotNullOrEmpty(employee.UserName, "Username",
-                    string.Format(Messages.ERROR_FIELD_ISNULL, "Username"))
-                .IsNotNullOrEmpty(employee.Password, "Password",
-                    string.Format(Messages.ERROR_FIELD_ISNULL, "Password"));
+                .IsNotNullOrEmpty(employee.UserName, "Username", string.Format(Messages.ERROR_FIELD_ISNULL, "Username"))
+                .IsNotNullOrEmpty(employee.Password, "Password", string.Format(Messages.ERROR_FIELD_ISNULL, "Password"));
 
             return Contract.Notifications;
         }

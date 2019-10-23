@@ -189,7 +189,7 @@ namespace HelloWorld.Core.Api
             app.UseSwagger();
             app.UseSwaggerUI( s =>
             {
-                s.SwaggerEndpoint( "../swagger/v1/swagger.json", "Serko Core Project API v1.0" );
+                s.SwaggerEndpoint( "../swagger/v1/swagger.json", "Hello World Core Project API v1.0" );
             } );
         }
     }

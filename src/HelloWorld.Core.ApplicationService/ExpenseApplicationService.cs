@@ -26,29 +26,6 @@ namespace HelloWorld.Core.ApplicationService
             _expenseService = expenseService;
         }
 
-        public Expense InvokeImporterEmailData(dynamic request)
-        {
-            ExpenseEmailRequest data = Converter.ConvertTo<ExpenseEmailRequest>(request);
-
-            var expresion = @"<total>(.*?)</total>";
-            Regex regex = new Regex(expresion);
-
-            var emailData = data.EmailData.Replace('\n', ' ');
-
-            if(!regex.Match(emailData).Success)
-            {
-                AddNotification("Total Is Required.", Messages.ERROR_BAD_REQUEST);
-                return null;
-            }
-            
-            var result = _expenseService.InvokeImporterEmailData(data);
-
-            if (result == null)
-                AddNotification("NoDataFound", Messages.ERROR_COMMIT);
-
-            return result;
-        }
-
         public string Add(dynamic request)
         {
             Expense expense = Converter.ConvertTo<Expense>(request);

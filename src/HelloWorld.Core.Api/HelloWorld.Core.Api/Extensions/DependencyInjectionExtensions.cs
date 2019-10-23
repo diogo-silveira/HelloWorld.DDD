@@ -1,5 +1,5 @@
 ﻿
-//using HelloWorld.Core.Infrastructure.CrossCutting.IoC;
+using HelloWorld.Core.Infrastructure.CrossCutting.IoC;
 using Microsoft.Extensions.DependencyInjection;
 
 namespace HelloWorld.Core.Api.Extensions
@@ -8,7 +8,7 @@ namespace HelloWorld.Core.Api.Extensions
     {
         public static void AddDependencyInjection(this IServiceCollection services)
         {
-            //NativeInjectorBootStrapper.RegisterServices(services);
+            NativeInjectorBootStrapper.RegisterServices(services);
         }
     }
 }

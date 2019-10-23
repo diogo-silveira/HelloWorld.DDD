@@ -6,11 +6,11 @@ namespace HelloWorld.Core.Infrastructure.Data.UnitOfWork
 {
     public class UnitOfWork : IUnitOfWork
     {
-        private SerkoCoreDataContext _skynetCoreDataContext;
+        private DbCoreDataContext _dbCoreDataContext;
 
-        public UnitOfWork(SerkoCoreDataContext skynetCoreDataContext)
+        public UnitOfWork(DbCoreDataContext skynetCoreDataContext)
         {
-            _skynetCoreDataContext = skynetCoreDataContext;
+            _dbCoreDataContext = skynetCoreDataContext;
         }
 
         public void Dispose()
@@ -20,7 +20,7 @@ namespace HelloWorld.Core.Infrastructure.Data.UnitOfWork
 
         public ActionResponse Commit()
         {
-            var rowsAffected = _skynetCoreDataContext.SaveChanges();
+            var rowsAffected = _dbCoreDataContext.SaveChanges();
             return new ActionResponse(rowsAffected > 0);
         }
 
@@ -29,11 +29,11 @@ namespace HelloWorld.Core.Infrastructure.Data.UnitOfWork
             if (!disposing)
                 return;
 
-            if (_skynetCoreDataContext == null)
+            if (_dbCoreDataContext == null)
                 return;
 
-            _skynetCoreDataContext.Dispose();
-            _skynetCoreDataContext = null;
+            _dbCoreDataContext.Dispose();
+            _dbCoreDataContext = null;
         }
     }
 }

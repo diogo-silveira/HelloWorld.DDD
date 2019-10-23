@@ -6,7 +6,7 @@ using Microsoft.Extensions.Configuration;
 
 namespace HelloWorld.Core.Infrastructure.Data.Context
 {
-    public class SerkoCoreDataContext : DbContext
+    public class DbCoreDataContext : DbContext
     {
        
         public virtual DbSet<Employee> Employees { get; set; }

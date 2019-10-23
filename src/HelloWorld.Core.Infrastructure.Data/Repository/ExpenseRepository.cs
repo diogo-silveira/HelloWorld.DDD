@@ -10,9 +10,9 @@ namespace HelloWorld.Core.Infrastructure.Data.Repository
 {
     public class ExpenseRepository : IExpenseRepository
     {
-        private readonly SerkoCoreDataContext _serkoCoreDataContext;
+        private readonly DbCoreDataContext _serkoCoreDataContext;
 
-        public ExpenseRepository(SerkoCoreDataContext serkoCoreDataContext)
+        public ExpenseRepository(DbCoreDataContext serkoCoreDataContext)
             => _serkoCoreDataContext = serkoCoreDataContext;
 
         public Expense Add(Expense expense)

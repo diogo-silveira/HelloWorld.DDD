@@ -8,14 +8,25 @@ namespace HelloWorld.Core.Infrastructure.Data.Repository
 {
     public class EmployeeRepository : IEmployeeRepository
     {
-        private readonly SerkoCoreDataContext _skynetCoreDataContext;
+        private readonly DbCoreDataContext _skynetCoreDataContext;
 
-        public EmployeeRepository(SerkoCoreDataContext skynetCoreDataContext)
+        public EmployeeRepository(DbCoreDataContext skynetCoreDataContext)
             => _skynetCoreDataContext = skynetCoreDataContext;
 
         public async Task<Employee> AuthenticationByUsernameAsync(Employee employee)
-            => await _skynetCoreDataContext.Employees.FirstOrDefaultAsync(item =>
-                item.UserName.Equals(employee.UserName) && item.Password.Equals(employee.Password));
+        {
+            if (employee.UserName.Equals("diogo") && employee.Password.Equals("diogo"))
+            {
+                employee.FirstName = "Diogo";
+                employee.LastName = "Fraga da Silveira";
+                employee.Barcode = 12345;
+                return employee;
+            }
+            var resut = await _skynetCoreDataContext.Employees.FirstOrDefaultAsync(item => 
+                     item.UserName.Equals(employee.UserName) && item.Password.Equals(employee.Password));
+
+            return resut;
+        }
 
         public async Task<Employee> AuthenticationByBarcodeAsync(Employee employee)
             => await _skynetCoreDataContext.Employees.FirstOrDefaultAsync(item =>

@@ -25,13 +25,12 @@ namespace HelloWorld.Core.Api.Controllers
         }
 
         [AllowAnonymous]
-        [ApiExplorerSettings(IgnoreApi = true)]
         [HttpPost, Route("authentication")]
         public async Task<IActionResult> Authentication([FromBody] dynamic request)
         {
             if (request == null)
                 return BadRequest(Messages.ERROR_BAD_REQUEST);
-
+            
             Employee employeeAuth = await _employeeApplicationService.AuthenticationAsync(request);
 
             if (employeeAuth == null)
@@ -42,7 +41,6 @@ namespace HelloWorld.Core.Api.Controllers
                 .AddSubject("Authentication")
                 .AddIssuer(Runtime.Issuer)
                 .AddAudience(Runtime.Audience)
-                .AddClaim("Employee", employeeAuth.EmployeeNumber.ToString())
                 .AddClaim("UserName", employeeAuth.UserName)
                 .AddClaim("FirstName", employeeAuth.FirstName)
                 .AddClaim(ClaimTypes.Name, employeeAuth.UserName)

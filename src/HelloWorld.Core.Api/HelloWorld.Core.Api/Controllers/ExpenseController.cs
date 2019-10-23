@@ -25,23 +25,6 @@ namespace HelloWorld.Core.Api.Controllers
             _expenseApplicationService = expenseApplicationService;
         }
 
-        [AllowAnonymous]
-        [HttpPost, Route("InvokeImporterEmailData")]
-        public async Task<IActionResult> InvokeImporterEmailData([FromBody] dynamic request)
-        {
-            if (request == null)
-                return BadRequest(Messages.ERROR_BAD_REQUEST);
-
-            var result = _expenseApplicationService.InvokeImporterEmailData(request);
-
-            var response = new
-            {
-                data = result
-            };
-
-            return await Response(response, _expenseApplicationService.ListNotifications());
-        }
-
         [HttpPost, Route("add")]
         public async Task<IActionResult> Add([FromBody] dynamic request)
         {

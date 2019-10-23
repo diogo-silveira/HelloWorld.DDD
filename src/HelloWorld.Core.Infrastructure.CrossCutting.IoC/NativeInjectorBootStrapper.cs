@@ -24,19 +24,20 @@ namespace HelloWorld.Core.Infrastructure.CrossCutting.IoC
 
             services.AddScoped<IEmployeeApplicationService, EmployeeApplicationService>();
             services.AddScoped<IExpenseApplicationService, ExpenseApplicationService>();
-
+            services.AddScoped<IHelloWorldApplicationService, HelloWorldApplicationService>();
 
             #endregion
 
             #region [ SERVICE ]
             services.AddScoped<IEmployeeService, EmployeeService>();
             services.AddScoped<IExpenseService, ExpenseService>();
+            services.AddScoped<IHelloWorldService, HelloWorldService>();
 
             #endregion
 
             #region [ DATA ] 
 
-            services.AddScoped<SerkoCoreDataContext>();
+            services.AddScoped<DbCoreDataContext>();
             services.AddScoped<IUnitOfWork, UnitOfWork>();
 
             services.AddScoped<IEmployeeRepository, EmployeeRepository>();
