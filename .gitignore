@@ -7,3 +7,5 @@
 /.vs/HelloWorld.Core.Api/v15/Server/sqlite3/storage.ide
 /.vs/HelloWorld.Core.Api/v15/Server/sqlite3/db.lock
 /.vs/HelloWorld.Core.Api/v15/.suo
+/src/HelloWorld.Core.Api/HelloWorld.Core.Api/obj
+/src/HelloWorld.Core.Api/HelloWorld.Core.Api/bin
